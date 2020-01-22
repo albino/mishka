@@ -1,0 +1,17 @@
+{
+	"manifest_version": 2,
+	"name": "Bear Vocab Saver",
+	"version": "1",
+	"description": "Plugin to save vocabulary from the 'Bear Resource' as TSV",
+
+	"content_scripts": [
+		{
+			"matches": ["*://lcitc.langcen.cam.ac.uk/russian/*"],
+			"js": ["mishka.js"]
+		}
+	],
+
+	"icons": {
+		"100": "icon.png"
+	}
+}

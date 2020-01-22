@@ -1,0 +1,3 @@
+web-ext-artifacts/*
+*.swp
+.web-extension-id
